@@ -21,7 +21,7 @@ model_file_name = 'frozen_inference_graph'
 app = Starlette()
 app.add_middleware(CORSMiddleware, allow_origins=['*'], allow_headers=['X-Requested-With', 'Content-Type'])
 app.mount('/static', StaticFiles(directory='app/static'))
-PATH_TO_LABELS = r'open.pbtxt'
+PATH_TO_LABELS = r'app/open.pbtxt'
 MODEL_PATH = path/'models'/f'{model_file_name}.pb'
 IMG_FILE_SRC = '/tmp/saved_image.png'
 label_map = label_map_util.load_labelmap(PATH_TO_LABELS)
