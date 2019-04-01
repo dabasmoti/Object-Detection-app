@@ -1,6 +1,4 @@
-import numpy as np
-#import os
-#os.environ["CUDA_VISIBLE_DEVICES"]="-1"    
+import numpy as np   
 import tensorflow as tf
 from PIL import Image
 import ops as utils_ops
@@ -17,11 +15,8 @@ import time
 
 
 path = Path(__file__).parent
-print("Path",path)
 model_file_url = 'https://www.dropbox.com/s/933b2dtccnmlfc3/frozen_inference_graph.pb?dl=1'
 model_file_name = 'frozen_inference_graph'
-ex1 = r'/home/moti/app/app/models/frozen_inference_graph.pb'
-ex2 = r'/home/moti/anaconda3/envs/od/lib/python3.6/site-packages/tensorflow/models/research/object_detection/train/data/model/ex1/frozen_inference_graph.pb'
 
 app = Starlette()
 app.add_middleware(CORSMiddleware, allow_origins=['*'], allow_headers=['X-Requested-With', 'Content-Type'])
