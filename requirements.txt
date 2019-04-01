@@ -1,9 +1,7 @@
 tensorflow
-Keras
 gevent
 pillow
 numpy
-h5py
 starlette
 uvicorn
 python-multipart
