@@ -42,7 +42,7 @@ async def setup_model():
     detection_graph = tf.Graph()
     with detection_graph.as_default():
         od_graph_def = tf.GraphDef()
-        with tf.gfile.GFile(ex2, 'rb') as fid:
+        with tf.gfile.GFile(MODEL_PATH, 'rb') as fid:
             serialized_graph = fid.read()
             od_graph_def.ParseFromString(serialized_graph)
             tf.import_graph_def(od_graph_def, name='') # Load your Custom trained model
