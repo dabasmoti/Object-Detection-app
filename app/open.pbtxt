@@ -1,0 +1,88 @@
+item {
+  id: 1
+  display_name: "watch"
+}
+item {
+  id: 2
+  display_name: "sandal"
+}
+item {
+  id: 3
+  display_name: "dress"
+}
+item {
+  id: 4
+  display_name: "earrings"
+}
+item {
+  id: 5
+  display_name: "glasses"
+}
+item {
+  id: 6
+  display_name: "handbag"
+}
+item {
+  id: 7
+  display_name: "jacket"
+}
+item {
+  id: 8
+  display_name: "jeans"
+}
+item {
+  id: 9
+  display_name: "umbrella"
+}
+item {
+  id: 10
+  display_name: "scarf"
+}
+item {
+  id: 11
+  display_name: "bicycle_helmet"
+}
+item {
+  id: 12
+  display_name: "shirt"
+}
+item {
+  id: 13
+  display_name: "shorts"
+}
+item {
+  id: 14
+  display_name: "sock"
+}
+item {
+  id: 15
+  display_name: "suit"
+}
+item {
+  id: 16
+  display_name: "sun_hat"
+}
+item {
+  id: 17
+  display_name: "sunglasses"
+}
+item {
+  id: 18
+  display_name: "tie"
+}
+item {
+  id: 19
+  display_name: "coat"
+}
+item {
+  id: 20
+  display_name: "miniskirt"
+}
+item {
+  id: 21
+  display_name: "belt"
+}
+item {
+  id: 22
+  display_name: "backpack"
+}
